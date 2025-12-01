@@ -180,9 +180,9 @@ jobs:
 
       - name: 'Build with Maven'
         # yamllint disable-line rule:line-length
-        uses: lfreleng-actions/maven-build-action@main
+        uses: lfreleng-actions/maven-build-action@5be56aed8bed4f0bf9d699f2817eaef37c94ac02 # v0.2.0
         with:
-          jdk-version: |
+          java-version: |
             17
             21
           distribution: 'temurin'
